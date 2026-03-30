@@ -281,15 +281,13 @@ DELETE /tasks/:id
 
 ## Features
 
-### Required (Assignment)
+
 - ✅ **CRUD** for Projects and Tasks
 - ✅ **Pagination** on all list endpoints (`?page=1&limit=10`)
 - ✅ **Filter tasks** by status and priority
 - ✅ **Sort tasks** by `due_date`, `created_at`, `priority`
 - ✅ **Input validation** with `express-validator`
 - ✅ **Error handling** — global error middleware with Mongoose error mapping
-
-### Additional Features
 - ✅ **Kanban Board** view — switch between list and kanban per project
 - ✅ **Project progress bar** — visual completion tracking
 - ✅ **Task stats** — per-project todo / in-progress / done counts
